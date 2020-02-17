@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width"/>
   <meta name="keywords" content="HTML,CSS,JavaScript">
-  <meta name="author" content="Thomas Ghignon">
+  <meta name="author" content="Thomas Ghignon, Gimard Yvan">
   <title>Document</title>
 
   <link rel="stylesheet" href="css/libs/cssReset.css">
@@ -15,7 +15,9 @@
 
   <header>
     <div class="wrap">
-
+      <div id="returnButton">
+      < retour
+      </div>
     </div>
   </header>
 

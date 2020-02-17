@@ -5,3 +5,10 @@ body
   margin-bottom: 0px;
   margin-left: 0px;
 }
+
+header
+{
+   background-image: linear-gradient(to bottom, #ffca00, #ffc400, #ffbe00, #ffb900, #ffb300);
+   width: 100%;
+   height: 90vh;
+}

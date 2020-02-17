@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width"/>
-  <meta name="keywords" content="HTML,CSS,JavaScript,PHP">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
   <meta name="author" content="Thomas Ghignon">
   <title>Document</title>
 

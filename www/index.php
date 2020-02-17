@@ -15,7 +15,17 @@
 
   <header>
     <div class="wrap">
-
+      <nav>
+        <div>
+          <img src="img/logo/white-moabi-simple.png" alt="Logo de l'agence Moabi">
+          <a href="">moabi</a>
+        </div>
+        <div>
+          <a href="">agence</a>
+          <a href="">projets</a>
+          <a href="">membres</a>
+        </div>
+      </nav>
     </div>
   </header>
 

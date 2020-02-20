@@ -26,9 +26,51 @@
           <a href="">membres</a>
         </div>
       </nav>
+      <div class="headerContent">
+        <div>
+          <span>Agence</span>
+          <h1>moabi</h1>
+          <a href="#">
+            <span>nous contactez</span>
+          </a>
+        </div>
+        <div>
+          <img src="img/header/maket-mokup.png" alt="projets">
+        </div>
+      </div>
     </div>
   </header>
-
-  <script src="js/libs/jquery.js"></script>
-</body>
-</html>
+  <div class="main">
+    <div class="wrap">
+      <div class="main_container">
+        <div class="line outside-line">
+          <div class="lineContent"></div>
+          <div class="line inside1-line">
+            <div class="lineContent"></div>
+            <div class="line inside2-line">
+              <div class="lineContent"></div>
+              <div class="lineContent"></div>
+              <div class="lineContent"></div>
+            </div>
+            <div class="lineContent"></div>
+          </div>
+          <div class="lineContent"></div>
+        </div>
+          <section class="agency">
+            <div class="agencyValue_container">
+              <div class="background_whiteLogo"></div>
+              <div class="agencyValue_content">
+                <img src="" alt="Logo Moabi">
+                <h2>notre agence</h2>
+                <p>Le brin de curiosité mêlé à un soupçon d’audace qui vous donnera la recette pour aller au bout de vos projets.
+                Venez goûter le fruit de notre passion!</p>
+                <p>Moabi est une agence de 15 étudiants de deuxième années en DUT MMI.  Passionné et complémentaire, ils sont en charge de réaliser différents projets alliant de multiples compétences tout au long de l’année.</p>
+                <a href="">rapport d'agence</a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <script src="js/libs/jquery.js"></script>
+    </body>
+    </html>

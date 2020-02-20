@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width"/>
   <meta name="keywords" content="HTML,CSS,JavaScript">
   <meta name="author" content="Thomas Ghignon, Gimard Yvan">
-  <title>Document</title>
+  <title>Accueil</title>
 
   <link rel="stylesheet" href="css/libs/cssReset.css">
   <link rel="stylesheet" href="css/style_index.css">

@@ -58,14 +58,38 @@
         </div>
           <section class="agency">
             <div class="agencyValue_container">
-              <div class="background_whiteLogo"></div>
+              <div class="background_whiteLogo">
+                <img src="img/logo/white-moabi-onlyFigure.svg" alt="Logo Moabi">
+              </div>
               <div class="agencyValue_content">
-                <img src="" alt="Logo Moabi">
+                <img src="img/logo/orange-moabi.svg" alt="Logo Moabi">
                 <h2>notre agence</h2>
                 <p>Le brin de curiosité mêlé à un soupçon d’audace qui vous donnera la recette pour aller au bout de vos projets.
                 Venez goûter le fruit de notre passion!</p>
                 <p>Moabi est une agence de 15 étudiants de deuxième années en DUT MMI.  Passionné et complémentaire, ils sont en charge de réaliser différents projets alliant de multiples compétences tout au long de l’année.</p>
-                <a href="">rapport d'agence</a>
+                <a href="#">
+                  <span>rapport d'agence</span></a>
+              </div>
+            </div>
+            <div class="agencySkills_container">
+              <h2>nos domaines</h2>
+              <div class="agencySkills_content">
+                <div>
+                  <img src="img/icon/icon-bubble.png" alt="css/Bulle de dialogue">
+                  <p>Qu'elle soit digital ou non, nous l’assurons pour propulser vos projets.</p>
+                </div>
+                <div>
+                  <img src="img/icon/icon-computer.png" alt="Ordinateur">
+                  <p>Les lignes de code dansent grâce à nous pour s’aligner comme dans vos pensées.</p>
+                </div>
+                <div>
+                  <img src="img/icon/icon-pen.png" alt="Stylo">
+                  <p>L’univers graphique est vaste, nous sommes là pour vous guider.</p>
+                </div>
+                <div>
+                  <img src="img/icon/icon-camera.png" alt="Camera">
+                  <p>Nous jouons avec l’image et le son pour sublimer vos projets.</p>
+                </div>
               </div>
             </div>
           </section>

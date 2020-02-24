@@ -156,6 +156,7 @@ nav>div:nth-of-type(2) a
   height: 100%;
   display: flex;
   justify-content: space-between;
+  z-index: -100;
 }
 
 .outside-line
@@ -176,24 +177,40 @@ nav>div:nth-of-type(2) a
 
 .lineContent
 {
-  width: 1px;
+  width: 0.5px;
   height: 100%;
   background-color: rgba(36,36,36,0.05);
 }
 
 .agency
 {
-  height: 100vh;
   width: 100%;
 }
 
 .agencyValue_container
 {
   width: 100%;
-  height: 20vh;
-  background-color: red;
+  margin-top: 200px;
 
-  margin: 150px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.background_whiteLogo
+{
+  width: 60%;
+  position: relative;
+}
+
+.background_whiteLogo img
+{
+  position: absolute;
+  width: 140%;
+  z-index: -9;
+
+  top: -120px;
+  left: -240px;
 }
 
 .agencyValue_content
@@ -202,9 +219,89 @@ nav>div:nth-of-type(2) a
   justify-content: center;
   flex-direction: column;
   align-items: center;
+
+  width: 40%;
+}
+
+.agencyValue_content img
+{
+  width: 30%;
+  margin: 20px 0;
+}
+
+.agencyValue_content h2
+{
+  margin-bottom: 40px;
 }
 
 .agencyValue_content p
 {
   text-align: center;
+}
+
+.agencyValue_content a
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 230px;
+  background-image: linear-gradient(to right, #ff7700, #ff8d00, #ffa200, #ffb600, #ffca00);
+
+  letter-spacing: 2px;
+
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  border: 0px solid #000000;
+
+  margin: 30px 0 149px 0;
+
+  color: #FFF;
+}
+
+.agencySkills_container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 150px;
+}
+
+.agencySkills_container h2
+{
+  margin-bottom: 70px;
+}
+
+.agencySkills_content
+{
+  border: 0.5px rgba(36,36,36,0.05) solid;
+  background-color: #FFF;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+
+  box-sizing: border-box;
+  padding: 35px;
+}
+
+.agencySkills_content div
+{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  width: 16%;
+
+  margin-bottom: 20px;
+}
+
+.agencySkills_content img
+{
+  height: 50px;
+  margin-bottom: 35px;
 }

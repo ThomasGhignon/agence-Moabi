@@ -93,6 +93,18 @@
               </div>
             </div>
           </section>
+          <section class="project">
+            <h2>nos projets</h2>
+            <div>
+              <div>
+                <img src="" alt="">
+              </div>
+              <div>
+                <p></p>
+                <a href=""></a>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
       <script src="js/libs/jquery.js"></script>

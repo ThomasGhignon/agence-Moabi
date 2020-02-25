@@ -96,6 +96,14 @@
           <section class="project">
             <h2>nos projets</h2>
             <div>
+              <h3>Naturopathe</h3>
+              <div class="project_img_1 js-project_img"></div>
+              <div>
+                <p>Conception et réalisation d’un univers graphique et d’un site web pour le compte d’une naturopathe indépendante.</p>
+                <a href="">Voir le projet</a>
+              </div>
+            </div>
+            <!-- <div>
               <div>
                 <img src="" alt="">
               </div>
@@ -103,10 +111,11 @@
                 <p></p>
                 <a href=""></a>
               </div>
-            </div>
+            </div> -->
           </section>
         </div>
       </div>
       <script src="js/libs/jquery.js"></script>
+      <script src="js/index_imgSize.js"></script>
     </body>
     </html>

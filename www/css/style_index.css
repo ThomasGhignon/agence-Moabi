@@ -147,6 +147,7 @@ nav>div:nth-of-type(2) a
   width: 100%;
   position: relative;
   display: flex;
+  flex-direction: column;
 
 }
 
@@ -206,11 +207,11 @@ nav>div:nth-of-type(2) a
 .background_whiteLogo img
 {
   position: absolute;
-  width: 140%;
+  width: 160%;
   z-index: -9;
 
-  top: -120px;
-  left: -240px;
+  top: -200px;
+  left: -347px;
 }
 
 .agencyValue_content
@@ -304,4 +305,43 @@ nav>div:nth-of-type(2) a
 {
   height: 50px;
   margin-bottom: 35px;
+}
+
+.project
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project>div
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+
+  background-color: #FFF;
+}
+
+.project h3
+{
+  position: absolute;
+  font-size: 6em;
+  mix-blend-mode: difference;
+  z-index: 700;
+  color: #fff;
+}
+
+.project>div>div
+{
+  width: 50%;
+}
+
+.project_img_1
+{
+  background-image: url(../img/pictures/testPicture.jpg);
+  background-size: cover;
+  background-origin: 50% 50%;
 }

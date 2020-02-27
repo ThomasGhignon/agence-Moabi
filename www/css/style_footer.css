@@ -1,0 +1,97 @@
+footer
+{
+  width: 100%;
+  background-image: linear-gradient(to right bottom, #ffc900, #ffc400, #ffc000, #ffbb00, #ffb700);
+}
+
+footer .wrap>div
+{
+  display: flex;
+}
+
+footer .wrap>div:first-child
+{
+  width: 100%;
+  margin: 80px 0;
+  display: flex;
+  justify-content: space-between;
+}
+footer .wrap>div:first-child a
+{
+  color: #FFF;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.returnTop
+{
+  display: flex;
+  align-items: center;
+}
+
+.returnTop>div
+{
+  display: flex;
+}
+
+.returnTop img
+{
+  margin-right: 20px;
+  width: 40px;
+}
+
+
+.coordinator
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.coordinator>div
+{
+  display: flex;
+}
+
+.coordinator img
+{
+  width: 20px;
+  margin-right: 20px;
+}
+
+footer .wrap>div:last-child
+{
+  margin: 0 0 20px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .wrap>div:last-child *
+{
+  margin: 0 15px;
+}
+
+footer .wrap>div:last-child a
+{
+  color: #FFF;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+footer .wrap>div:last-child img
+{
+  width: 40px;
+}
+
+footer h4
+{
+  font-family: "Quicksand", arial, sans-serif;
+  font-weight: 700;
+  color: #FFF;
+}
+
+footer p
+{
+  color: #FFF;
+  font-weight: 400;
+}

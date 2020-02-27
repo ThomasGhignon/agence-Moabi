@@ -405,3 +405,16 @@ nav>div:nth-of-type(2) a
 {
   width: 56%;
 }
+
+
+.members
+{
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+}
+
+.members h2
+{
+  text-align: center;
+}

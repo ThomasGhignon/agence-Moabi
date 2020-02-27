@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width"/>
   <meta name="keywords" content="HTML,CSS,JavaScript">
-  <meta name="author" content="Thomas Ghignon, Gimard Yvan">
+  <meta name="author" content="Ghignon Thomas, Gimard Yvan">
   <title>Accueil</title>
 
   <link rel="stylesheet" href="css/libs/cssReset.css">
@@ -21,9 +21,9 @@
           <a href="">moabi</a>
         </div>
         <div>
-          <a href="">agence</a>
-          <a href="">projets</a>
-          <a href="">membres</a>
+          <a href="#">agence</a>
+          <a href="#">projets</a>
+          <a href="#">membres</a>
         </div>
       </nav>
       <div class="headerContent">
@@ -49,8 +49,8 @@
             <div class="lineContent"></div>
             <div class="line inside2-line">
               <div class="lineContent"></div>
-              <div class="lineContent"></div>
-              <div class="lineContent"></div>
+              <div class="lineContent js-offsetLine1"></div>
+              <div class="lineContent js-offsetLine2"></div>
             </div>
             <div class="lineContent"></div>
           </div>
@@ -95,27 +95,89 @@
           </section>
           <section class="project">
             <h2>nos projets</h2>
-            <div>
-              <h3>Naturopathe</h3>
+            <div class="project-right_content">
+              <span class="project_title">
+                <h3>Naturopathe</h3>
+              </span>
               <div class="project_img_1 js-project_img"></div>
-              <div>
-                <p>Conception et réalisation d’un univers graphique et d’un site web pour le compte d’une naturopathe indépendante.</p>
-                <a href="">Voir le projet</a>
+              <div class="projet-desc_container">
+                <div class="js-desc_content">
+                  <p>Conception et réalisation d’un univers graphique et d’un site web pour le compte d’une naturopathe indépendante.</p>
+                  <a href="#">Voir le projet ></a>
+                </div>
               </div>
             </div>
-            <!-- <div>
-              <div>
-                <img src="" alt="">
+
+            <div class="project-left_content">
+              <span class="project_title">
+                <h3>Myrelingue</h3>
+              </span>
+              <div class="projet-desc_container">
+                <div class="js-desc_content">
+                  <p>Réalisation de motions design pour prévenir les méthodes de blanchiment de la peau en Afrique.</p>
+                  <a href="#">Voir le projet ></a>
+                </div>
               </div>
-              <div>
-                <p></p>
-                <a href=""></a>
+              <div class="project_img_1 js-project_img"></div>
+            </div>
+
+            <div class="project-right_content">
+              <span class="project_title">
+                <h3>FRAMMI</h3>
+              </span>
+              <div class="project_img_1 js-project_img"></div>
+              <div class="projet-desc_container">
+                <div class="js-desc_content">
+                  <p>Organisation du festival audiovisuel vitrine du département MMI, qui récompense les réalisation des élèves de ce département au travers d’une cérémonie regroupant élèves, professeurs et professionnels.</p>
+                  <a href="#">Voir le projet ></a>
+                </div>
               </div>
-            </div> -->
+            </div>
+
+            <div class="project-left_content">
+              <span class="project_title">
+                <h3>Vital coach <br> envent</h3>
+              </span>
+              <div class="projet-desc_container">
+                <div class="js-desc_content">
+                  <p>Réalisation d’une vidéo promotionnel pour l'événement “ Road E-Bike Grand Prix” et par la même occasion, faire connaître le monde du vélo à assistance électrique en compétition.</p>
+                  <a href="#">Voir le projet ></a>
+                </div>
+              </div>
+              <div class="project_img_1 js-project_img"></div>
+            </div>
+
+            <div class="project-right_content">
+              <span class="project_title">
+                <h3>Joseph Hakka</h3>
+              </span>
+              <div class="project_img_1 js-project_img"></div>
+              <div class="projet-desc_container">
+                <div class="js-desc_content">
+                  <p>Conception et réalisation, en relation avec l’artiste Joseph Aka, d’un environnement numérique pour la création d’un spectacle de danse contemporaine sur le sujet de la migration.</p>
+                  <a href="#">Voir le projet ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-left_content">
+              <span class="project_title">
+                <h3>IFSI Escape <br> Game</h3>
+              </span>
+              <div class="projet-desc_container">
+                <div class="js-desc_content">
+                  <p>Conception et réalisation d’un escape game semi-numérique autour du thème de la gestion des risques lors des transfusions sanguines.</p>
+                  <a href="#">Voir le projet ></a>
+                </div>
+              </div>
+              <div class="project_img_1 js-project_img"></div>
+            </div>
+
           </section>
         </div>
       </div>
       <script src="js/libs/jquery.js"></script>
       <script src="js/index_imgSize.js"></script>
+      <script src="js/index-projet_offsetTxt.js"></script>
     </body>
     </html>

@@ -8,6 +8,8 @@
   <title>Accueil</title>
 
   <link rel="stylesheet" href="css/libs/cssReset.css">
+  <link rel="stylesheet" href="css/libs/flickity.css" media="screen">
+
   <link rel="stylesheet" href="css/style_index.css">
   <link rel="stylesheet" href="css/style_global.css">
 
@@ -171,13 +173,39 @@
       </section>
       <section class="members">
         <h2>nos membres</h2>
-        <div></div>
+        <div class="members_container">
+          <div class="membersPictures">
+            <div class="main-carousel">
+              <div class="carousel-cell"></div>
+              <div class="carousel-cell"></div>
+              <div class="carousel-cell"></div>
+              <div class="carousel-cell"></div>
+              <div class="carousel-cell"></div>
+              <div class="carousel-cell"></div>
+              <div class="carousel-cell"></div>
+              <div class="carousel-cell"></div>
+              <div class="carousel-cell"></div>
+              <div class="carousel-cell"></div>
+              <div class="carousel-cell"></div>
+              <div class="carousel-cell"></div>
+              <div class="carousel-cell"></div>
+              <div class="carousel-cell"></div>
+              <div class="carousel-cell"></div>
+            </div>
+          </div>
+          <div class="membresDesc">
+
+          </div>
+        </div>
       </section>
     </div>
   </div>
   <?php include 'include/footer.php'; ?>
-    <script src="js/libs/jquery.js"></script>
-    <script src="js/index_imgSize.js"></script>
-    <script src="js/index-projet_offsetTxt.js"></script>
+  <script src="js/libs/jquery.js"></script>
+  <script src="js/libs/flickity.pkgd.js"></script>
+
+  <script src="js/initFlickity.js"></script>
+  <script src="js/index_imgSize.js"></script>
+  <script src="js/index-projet_offsetTxt.js"></script>
 </body>
 </html>

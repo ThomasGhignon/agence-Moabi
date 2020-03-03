@@ -1,17 +1,3 @@
-body
-{
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  overflow-x: hidden;
-}
-
-body *
-{
-  user-select: none;
-}
-
 header
 {
    background-image: linear-gradient(to bottom, #ffca00, #ffc400, #ffbe00, #ffb900, #ffb300);
@@ -24,50 +10,6 @@ header .wrap
   height: 100%;
   justify-content: space-between;
 }
-
-nav
-{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 30px 0;
-
-  z-index: 990;
-}
-
-nav img
-{
-  width: 30px;
-}
-
-nav a
-{
-  color: #FFF;
-}
-
-nav>div:nth-of-type(1)
-{
-  display: flex;
-  align-items: center;
-}
-
-nav>div:nth-of-type(1) *
-{
-  margin-right: 20px;
-}
-
-nav>div:nth-of-type(2)
-{
-  display: flex;
-  align-items: center;
-}
-
-nav>div:nth-of-type(2) a
-{
-  margin-left: 60px;
-}
-
 
 .headerContent
 {
@@ -140,47 +82,6 @@ nav>div:nth-of-type(2) a
   flex-direction: inherit;
 
   box-sizing: border-box;
-}
-
-.main_container
-{
-  width: 100%;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-
-}
-
-
-.main_container .line
-{
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  z-index: -100;
-}
-
-.outside-line
-{
-  width: 100%;
-  position: absolute;
-}
-
-.inside1-line
-{
-  width: 60%;
-}
-
-.inside2-line
-{
-  width: 70%;
-}
-
-.lineContent
-{
-  width: 0.5px;
-  height: 100%;
-  background-color: rgba(36,36,36,0.05);
 }
 
 .agency

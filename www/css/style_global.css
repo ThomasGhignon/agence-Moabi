@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&display=swap');
 
+body
+{
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  overflow-x: hidden;
+}
+
+body *
+{
+  user-select: none;
+}
+
 .wrap
 {
   max-width: 1440px;
@@ -67,4 +81,45 @@ h2
 h3
 {
   font-family: "Quicksand", arial, sans-serif;
+}
+
+.main_container
+{
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.main_container .line
+{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: -100;
+}
+
+.outside-line
+{
+  width: 100%;
+  position: absolute;
+}
+
+.inside1-line
+{
+  width: 60%;
+}
+
+.inside2-line
+{
+  width: 70%;
+}
+
+.lineContent
+{
+  width: 0.5px;
+  height: 100%;
+  background-color: rgba(36,36,36,0.05);
 }

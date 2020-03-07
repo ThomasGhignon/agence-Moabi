@@ -1,10 +1,10 @@
-<footer>
+<footer id="link-footer">
   <div class="wrap">
     <div>
       <div class="returnTop">
         <div>
           <img src="img/logo/white-moabi-simple.png" alt="Logo moabi">
-          <a href="#">moabi</a>
+          <a href="http://localhost/agence-Moabi/www/">moabi</a>
         </div>
       </div>
       <div class="coordinator">

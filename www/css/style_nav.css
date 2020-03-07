@@ -32,11 +32,62 @@ nav>div:nth-of-type(1) *
 
 nav>div:nth-of-type(2)
 {
-  display: flex;
+  display: none;
   align-items: center;
 }
 
 nav>div:nth-of-type(2) a
 {
   margin-left: 60px;
+}
+
+.onMoveNav
+{
+  background-color: #ffca00;
+  position: fixed;
+  width: 100%;
+  z-index: 998;
+}
+
+.navHidden
+{
+  top: -100px;
+  transition: .2s;
+}
+
+.navShow
+{
+  top: 0px;
+  transition: .2s;
+}
+
+.js-smallButton
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.js-smallButton span
+{
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #FFF;
+  margin: 4px 0;
+
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  border: 0px solid #000000;
+}
+
+.responsiveNav
+{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #FFC400;
+  z-index: 999;
 }

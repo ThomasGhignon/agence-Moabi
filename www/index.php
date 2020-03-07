@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width"/>
   <meta name="keywords" content="HTML,CSS,JavaScript">
   <meta name="author" content="Ghignon Thomas">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_package/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_package/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_package/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon_package/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
   <title>Accueil</title>
 
   <link rel="stylesheet" href="css/libs/cssReset.css">
@@ -15,16 +23,27 @@
 
   <link rel="stylesheet" href="css/style_footer.css">
   <link rel="stylesheet" href="css/style_nav.css">
+
+  <link rel="stylesheet" href="css/responsive/responsive_global.css">
+  <link rel="stylesheet" href="css/responsive/responsive_index.css">
 </head>
 <body>
-  <header>
+  <div class="onMoveNav navHidden">
+    <div class="responsiveNav">
+
+    </div>
     <div class="wrap">
-    <?php include 'include/nav.php'; ?>
+      <?php include 'include/nav_index.php'; ?>
+    </div>
+  </div>
+  <header id="link-header">
+    <div class="wrap">
+    <?php include 'include/nav_index.php'; ?>
       <div class="headerContent">
         <div>
           <span>Agence</span>
           <h1>moabi</h1>
-          <a href="#">
+          <a href="#link-footer">
             <span>nous contactez</span>
           </a>
         </div>
@@ -49,7 +68,7 @@
         </div>
         <div class="lineContent"></div>
       </div>
-      <section class="agency">
+      <section class="agency" id="link-agency">
         <div class="agencyValue_container">
           <div class="background_whiteLogo">
             <img src="img/logo/white-moabi-onlyFigure.svg" alt="Logo Moabi">
@@ -87,23 +106,23 @@
           </div>
         </div>
       </section>
-      <section class="project">
+      <section class="project" id="link-project">
         <h2>nos projets</h2>
         <div class="project-right_content">
           <span class="project_title">
             <h3>Naturopathe</h3>
           </span>
-          <div class="project_img_1 js-project_img"></div>
+          <div class="project_img_1 project_img js-project_img"></div>
           <div class="projet-desc_container">
             <div class="js-desc_content">
               <p>Conception et réalisation d’un univers graphique et d’un site web pour le compte d’une naturopathe indépendante.</p>
-              <a href="#">Voir le projet ></a>
+              <a href="http://localhost/agence-Moabi/www/projet.php?nbProject=0">Voir le projet ></a>
             </div>
           </div>
         </div>
         <div class="project-left_content">
           <span class="project_title">
-            <h3>Myrelingue</h3>
+            <h3>Myrelingues</h3>
           </span>
           <div class="projet-desc_container">
             <div class="js-desc_content">
@@ -111,13 +130,13 @@
               <a href="#">Voir le projet ></a>
             </div>
           </div>
-          <div class="project_img_1 js-project_img"></div>
+          <div class="project_img_2 project_img js-project_img"></div>
         </div>
         <div class="project-right_content">
           <span class="project_title">
             <h3>FRAMMI</h3>
           </span>
-          <div class="project_img_1 js-project_img"></div>
+          <div class="project_img_3 project_img js-project_img"></div>
           <div class="projet-desc_container">
             <div class="js-desc_content">
               <p>Organisation du festival audiovisuel vitrine du département MMI, qui récompense les réalisation des élèves de ce département au travers d’une cérémonie regroupant élèves, professeurs et professionnels.</p>
@@ -127,7 +146,7 @@
         </div>
         <div class="project-left_content">
           <span class="project_title">
-            <h3>Vital coach <br> envent</h3>
+            <h3>Vital coach <br> event</h3>
           </span>
           <div class="projet-desc_container">
             <div class="js-desc_content">
@@ -135,13 +154,13 @@
               <a href="#">Voir le projet ></a>
             </div>
           </div>
-          <div class="project_img_1 js-project_img"></div>
+          <div class="project_img_4 project_img js-project_img"></div>
         </div>
         <div class="project-right_content">
           <span class="project_title">
-            <h3>Joseph Hakka</h3>
+            <h3>Joseph Aka</h3>
           </span>
-          <div class="project_img_1 js-project_img"></div>
+          <div class="project_img_5 project_img js-project_img"></div>
           <div class="projet-desc_container">
             <div class="js-desc_content">
               <p>Conception et réalisation, en relation avec l’artiste Joseph Aka, d’un environnement numérique pour la création d’un spectacle de danse contemporaine sur le sujet de la migration.</p>
@@ -151,7 +170,7 @@
         </div>
         <div class="project-left_content">
           <span class="project_title">
-            <h3>IFSI Escape <br> Game</h3>
+            <h3>IFSI Escape<br>Game</h3>
           </span>
           <div class="projet-desc_container">
             <div class="js-desc_content">
@@ -159,10 +178,34 @@
               <a href="#">Voir le projet ></a>
             </div>
           </div>
-          <div class="project_img_1 js-project_img"></div>
+          <div class="project_img_6 project_img js-project_img"></div>
+        </div>
+        <div class="project-right_content">
+          <span class="project_title">
+            <h3>Synpeak</h3>
+          </span>
+          <div class="project_img_7 project_img js-project_img"></div>
+          <div class="projet-desc_container">
+            <div class="js-desc_content">
+              <p>Réalisation d’une vidéo sur l'implantation du sport au sein d’un environnement de travail pour l’entreprise Synpeak.</p>
+              <a href="#">Voir le projet ></a>
+            </div>
+          </div>
+        </div>
+        <div class="project-left_content">
+          <span class="project_title">
+            <h3>Anniversaire<br>GACO</h3>
+          </span>
+          <div class="projet-desc_container">
+            <div class="js-desc_content">
+              <p>Réalisation d’une captation de l’anniversaire des 20 ans de la filière GACO Musique de l’IUT de Chambéry.</p>
+              <a href="#">Voir le projet ></a>
+            </div>
+          </div>
+          <div class="project_img_8 project_img js-project_img"></div>
         </div>
       </section>
-      <section class="members">
+      <section class="members" id="link-members">
         <h2>nos membres</h2>
         <div class="members_container">
           <div class="membersPictures">
@@ -198,5 +241,7 @@
   <script src="js/initFlickity.js"></script>
   <script src="js/index_imgSize.js"></script>
   <script src="js/index-projet_offsetTxt.js"></script>
+  <script src="js/smoothScroll.js"></script>
+  <script src="js/onMove_nav.js"></script>
 </body>
 </html>

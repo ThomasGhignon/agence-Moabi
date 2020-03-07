@@ -269,12 +269,45 @@ header .wrap
 
 /* Project unique */
 
+.project_img
+{
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
 .project_img_1
 {
-  background-image: url(../img/pictures/testPicture.jpg);
-  background-size: cover;
-  background-origin: 50% 50%;
+  background-image: url(../img/pictures/naturopathe.png);
 }
+.project_img_2
+{
+  background-image: url(../img/pictures/myrelingue.jpg);
+}
+.project_img_3
+{
+  background-image: url(../img/pictures/frammi.jpg);
+}
+.project_img_4
+{
+  background-image: url(../img/pictures/vital-coach.jpg);
+}
+.project_img_5
+{
+  background-image: url(../img/pictures/aka.jpg);
+}
+.project_img_6
+{
+  background-image: url(../img/pictures/labyrinth.jpg);
+}
+.project_img_7
+{
+  background-image: url(../img/pictures/synpeak.jpg);
+}
+.project_img_8
+{
+  background-image: url(../img/pictures/gaco.jpg);
+}
+
 
 /* Project right content */
 .project-right_content .project_title

@@ -1,0 +1,17 @@
+@media screen and (max-width: 1120px)
+{
+  .project_desc > div:first-child img
+  {
+    width: 115%;
+    top: 89px;
+    right: 166px;
+  }
+}
+
+@media screen and (max-width: 900px)
+{
+  .headerImg_container
+  {
+    padding: 0 65px;
+  }
+}

@@ -1,0 +1,16 @@
+@media screen and (max-width: 1120px)
+{
+  .wrap
+  {
+    padding: 0 90px;
+  }
+}
+
+
+@media screen and (max-width: 750px)
+{
+  .wrap
+  {
+    padding: 0 90px;
+  }
+}

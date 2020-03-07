@@ -13,10 +13,41 @@ header
   align-items: center;
 }
 
-h1
+.headerContent>div:first-child
+{
+  margin: 35px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.headerContent p
+{
+  text-align: center;
+}
+
+header h1
 {
   text-transform: uppercase;
   font-size: 2em;
+}
+
+h2
+{
+  font-size: 1.2em;
+}
+
+h3
+{
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 1.1em;
+}
+
+h4
+{
+  font-size: 1em;
 }
 
 header p
@@ -28,23 +59,142 @@ header p
 .headerImg_container
 {
   width: 100%;
-  padding: 0 200px;
-
-  border: red 1px solid;
+  height: 50vh;
+  padding: 0 150px;
+  box-sizing: border-box;
 }
 
 .headerImg_content
 {
   width: 100%;
   height: 100%;
-  border: blue 1px solid;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.headerImg_content img
+{
+  width: 100%;
 }
 
 
 
-
-.main_content
+.project_desc
 {
   width: 100%;
-  height: 200vh;
+
+  display: flex;
+
+  box-sizing: border-box;
+  padding-top: 300px;
+  margin-bottom: 80px;
+}
+
+.project_desc>div
+{
+  width: 50%;
+}
+
+.project_desc h2
+{
+  margin-bottom: 35px;
+}
+
+.project_desc p
+{
+  line-height: 45px;
+  margin-bottom: 30px;
+}
+
+.project_desc h3
+{
+  margin-bottom: 5px;
+}
+
+.project_desc span
+{
+  font-weight: 700;
+}
+
+.project_desc>div:first-child
+{
+  width: 60%;
+  position: relative;
+}
+
+.project_desc>div:first-child img
+{
+  position: absolute;
+  width: 141%;
+  z-index: -9;
+  top: 81px;
+  right: 100px;
+}
+
+
+.office_container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 150px;
+
+  box-sizing: border-box;
+  padding: 35px;
+
+  border: 0.5px rgba(36,36,36,0.05) solid;
+  background-color: #FFF;
+}
+
+.office_container h2
+{
+  margin-bottom: 50px;
+}
+
+.office_content
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.office_content>div
+{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  width: 120px;
+
+  margin-bottom: 20px;
+}
+
+.office_content>div>div
+{
+  background-color: #EFEFEF;
+  width: 100px;
+  height: 100px;
+
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  border: 0px solid #000000;
+
+  margin-bottom: 30px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.office_content>div>div>img
+{
+  height: 100%;
 }

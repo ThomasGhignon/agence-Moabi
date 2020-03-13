@@ -2,11 +2,21 @@ nav
 {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin: 30px 0;
 
   z-index: 990;
+}
+
+.nav_active
+{
+  position: fixed;
+}
+
+.js-body_activeNav
+{
+  overflow: hidden;
 }
 
 nav img
@@ -19,24 +29,23 @@ nav a
   color: #FFF;
 }
 
-nav>div:nth-of-type(1)
+.nav_logo
+{
+  display: flex;
+}
+
+.nav_logo *
+{
+  margin-right: 20px;
+}
+
+.js-largeButton
 {
   display: flex;
   align-items: center;
 }
 
-nav>div:nth-of-type(1) *
-{
-  margin-right: 20px;
-}
-
-nav>div:nth-of-type(2)
-{
-  display: none;
-  align-items: center;
-}
-
-nav>div:nth-of-type(2) a
+.js-largeButton a
 {
   margin-left: 60px;
 }
@@ -49,9 +58,14 @@ nav>div:nth-of-type(2) a
   z-index: 998;
 }
 
+.onMoveNav_active
+{
+  display: none;
+}
+
 .navHidden
 {
-  top: -100px;
+  top: -200px;
   transition: .2s;
 }
 
@@ -63,7 +77,7 @@ nav>div:nth-of-type(2) a
 
 .js-smallButton
 {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -85,9 +99,74 @@ nav>div:nth-of-type(2) a
 
 .responsiveNav
 {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   position: fixed;
   width: 100%;
-  height: 100%;
-  background-color: #FFC400;
-  z-index: 999;
+  height: 100vh;
+  background-color: #ffca00;
+  z-index: 900;
+  font-size: 1.5em;
+  top: -100%;
+  transition: .4s;
+  padding: 200px 0;
+  box-sizing: border-box;
+}
+
+.responsiveNav_active
+{
+  top: 0%;
+}
+
+.responsiveNav a
+{
+  color: #FFF;
+}
+
+.ham {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 400ms;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.hamRotate.active {
+  transform: rotate(45deg);
+}
+.hamRotate180.active {
+  transform: rotate(180deg);
+}
+.line {
+  fill:none;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+  stroke:#FFF;
+  stroke-width:5.5;
+  stroke-linecap:round;
+}
+.ham8 .top {
+  stroke-dasharray: 40 160;
+}
+.ham8 .middle {
+  stroke-dasharray: 40 142;
+  transform-origin: 50%;
+  transition: transform 400ms;
+}
+.ham8 .bottom {
+  stroke-dasharray: 40 85;
+  transform-origin: 50%;
+  transition: transform 400ms, stroke-dashoffset 400ms;
+}
+.ham8.active .top {
+  stroke-dashoffset: -64px;
+}
+.ham8.active .middle {
+  //stroke-dashoffset: -20px;
+  transform: rotate(90deg);
+}
+.ham8.active .bottom {
+  stroke-dashoffset: -64px;
 }

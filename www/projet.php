@@ -2,8 +2,22 @@
 $fileJson = 'json/data_project.json';
 $data = file_get_contents($fileJson);
 $obj = json_decode($data);
+if ($_GET["nbProject"] == "") {
+    header("Location: http://localhost/agence-Moabi/www/");
+    exit();
+}else{
+  $nbProject = $_GET["nbProject"];
+  $str = strlen($nbProject);
+  if ($nbProject >= 0  && $nbProject < 8 && $str>0 && $str<2) {
 
-$nbProject = $_GET["nbProject"];
+  }
+  else
+  {
+    header("Location: http://localhost/agence-Moabi/www/");
+    exit();
+  }
+}
+
  ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -31,23 +45,25 @@ $nbProject = $_GET["nbProject"];
 
   <link rel="stylesheet" href="css/responsive/responsive_global.css">
   <link rel="stylesheet" href="css/responsive/responsive_projet.css">
+  <link rel="stylesheet" href="css/responsive/responsive_footer.css">
 </head>
 <body>
   <div class="onMoveNav navHidden">
-    <div class="wrap">
-      <?php include 'include/nav_project.php'; ?>
-    </div>
+    <?php include 'include/nav_project.php'; ?>
   </div>
   <header>
+    <?php include 'include/nav_project.php'; ?>
     <div class="wrap">
-      <?php include 'include/nav_project.php'; ?>
-
+      <div class="responsiveNav">
+        <a class="js-scrollTo" href="/agence-Moabi/www/#link-agency">agence</a>
+        <a class="js-scrollTo" href="/agence-Moabi/www/#link-project">projets</a>
+        <a class="js-scrollTo" href="/agence-Moabi/www/#link-members">membres</a>
+      </div>
       <div class="headerContent">
         <div>
           <h1><?php echo $obj->project[$nbProject]->title; ?></h1>
           <p><?php echo $obj->project[$nbProject]->head; ?></p>
         </div>
-
         <div class="headerImg_container">
           <div class="headerImg_content">
             <img src="<?php echo $obj->project[$nbProject]->projectPicture; ?>" alt="image du projet">
@@ -104,5 +120,6 @@ $nbProject = $_GET["nbProject"];
   <?php include 'include/footer.php'; ?>
   <script src="js/libs/jquery.js"></script>
   <script src="js/onMove_nav.js"></script>
+  <script src="js/responsiveNav.js"></script>
 </body>
 </html>

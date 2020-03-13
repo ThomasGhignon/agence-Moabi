@@ -1,7 +1,10 @@
 function imgSize(){
   $(document).ready(function(){
-    var imgWidth = $(".js-project_img").width();
-    $(".js-project_img").css('height', imgWidth);
+    if (window.matchMedia("(min-width: 840px)").matches)
+    {
+      var imgWidth = $(".js-project_img").width();
+      $(".js-project_img").css('height', imgWidth);
+    }
   });
 }
 imgSize();

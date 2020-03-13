@@ -11,7 +11,7 @@
         <h4>BURGARD Thomas</h4>
         <div>
           <img src="img/icon/icon-footer-email.svg" alt="Email">
-          <p>burgard.thomas.dcr@gmail.com</p>
+          <a class="mailto" href="mailto:burgard.thomas.dcr@gmail.com">burgard.thomas.dcr@gmail.com</a>
         </div>
         <div>
           <img src="img/icon/icon-footer-phone.svg" alt="Numéro de téléphone">
@@ -22,7 +22,7 @@
         <h4>REYMOND Emma</h4>
         <div>
           <img src="img/icon/icon-footer-email.svg" alt="Email">
-          <p>emmareymond66@gmail.com</p>
+          <a class="mailto" href="mailto:emmareymond66@gmail.com">emmareymond66@gmail.com</a>
         </div>
         <div>
           <img src="img/icon/icon-footer-phone.svg" alt="Numéro de téléphone">
@@ -33,7 +33,7 @@
     <div>
       <img src="img/logo/white-IUT-chambery-USMB.png" alt="Logo USMB">
       <img src="img/logo/white-mmi.png" alt="Logo MMI">
-      <a href="#">Mentions légales</a>
+      <a href="http://localhost/agence-Moabi/www/mentionsLegales.php">Mentions légales</a>
     </div>
   </div>
 </footer>

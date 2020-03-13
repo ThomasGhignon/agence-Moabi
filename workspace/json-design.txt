@@ -1,0 +1,275 @@
+product = Site Moabi JSON
+releaseDate d = 2020-03-04
+
+project[]
+  id number = 1
+  title = Naturopathe
+  head = Conception et réalisation d’un univers graphique et d’un site web pour le compte d’une naturopathe indépendante.
+  projectPicture = img/pictures/naturopathe.png
+  main = Le projet naturopathe est un projet qui lie communication, graphisme et développement Web. Nous avons réalisé la charte graphique et le site vitrine d'un futur cabinet de diététique spécialisé dans la flore intestinale qui ouvrira prochainement à Chambéry.
+  tools = Adobe XD, Photoshop, Illustrator, WordPress.
+  office[]
+    name = Maëva Reynaud
+    role = Coordinatrice, développeuse
+    memberPicture = img/members/face/maeva.jpg
+  office[]
+    name = Clément Teixeira
+    role = Secrétaire, graphiste
+    memberPicture = img/members/face/clement.jpg
+  office[]
+    name = Lucie Cleyet-Marel
+    role = Rédactrice
+    memberPicture = img/members/face/lucie.jpg
+  office[]
+    name = Elise Valloire
+    role = Graphiste
+    memberPicture = img/members/face/elise.jpg
+  office[]
+    name = Gwendal Berger
+    role = Graphiste
+    memberPicture = img/members/face/gwendal.jpg
+  office[]
+    name = Chloé Mabboux
+    role = Graphiste
+    memberPicture = img/members/face/chloe.jpg
+project[]
+  id number = 2
+  title = Myrelingues
+  head = Réalisation de motion designs pour prévenir les méthodes de blanchiment de la peau en Afrique.
+  projectPicture = img/pictures/myrelingues.jpg
+  main = Le projet Myrelingues allie graphisme et audiovisuel. Quatres motion designs ont été réalisés avec l’objectif de faire de la prévention sur le blanchiment de la peau en Afrique.
+  tools = After Effects, Premiere Pro, Illustrator
+  office[]
+    name = Chloé Mabboux
+    role = Coordinatrice, graphiste
+    memberPicture = img/members/face/chloe.jpg
+  office[]
+    name = Clément Teixeira
+    role = Secrétaire, graphiste
+    memberPicture = img/members/face/clement.jpg
+  office[]
+    name = Gwendal Berger
+    role = Graphiste
+    memberPicture = img/members/face/gwendal.jpg
+  office[]
+    name = Elise Valloire
+    role = Graphiste
+    memberPicture = img/members/face/elise.jpg
+project[]
+  id number = 3
+  title = FRAMMI
+  head = Organisation du festival audiovisuel vitrine du département MMI, qui récompense les réalisations des élèves de ce département au travers d’une cérémonie regroupant élèves, professeurs et professionnels.
+  projectPicture = img/pictures/frammi.jpg
+  main = Le projet FRAMMI est un projet pluridisciplinaire réunissant les quatres pôles de notre formation, soit : la communication, le graphisme, la programmation et l'audiovisuel. Tous les membres de l’agence ont donc travaillé sur ce projet. Ce projet est ancré dans notre formation depuis des années et rassemble les étudiants MMI et LP TSI.
+  tools = After Effects, Premiere Pro, Illustrator, Réseaux sociaux (Instagram et Facebook), HTMLS/CSS/JS, appareils Sony, stabilisateurs appareils photo, Indesign
+  office[]
+    name = Solène BOURGEAY
+    role = Coordinatrice, chargée de communication
+    memberPicture = img/members/face/solene.jpg
+  office[]
+    name = Yvan GIMARD
+    role = Secrétaire, développeur
+    memberPicture = img/members/face/yvan.jpg
+  office[]
+    name = Florian BARRAY
+    role = Chargé de communication, responsable budgétaire
+    memberPicture = img/members/face/florian.jpg
+  office[]
+    name = Pierre MALLET
+    role = Cadreur, monteur
+    memberPicture = img/members/face/pierre.jpg
+project[]
+  id number = 4
+  title = Vital Coach Event
+  head = Réalisation d’une vidéo promotionnelle pour promouvoir l'événement “ Road E-Bike Grand Prix” et par la même occasion, faire connaître le monde du vélo à assistance électrique en compétition.
+  projectPicture = img/pictures/vital-coach.jpg
+  main = Le projet Vital Coach Event est un projet 100% audiovisuel. Une vidéo de teasing à caractère informatif a été créé pour l'événement Road E-bike Grand Prix.
+  tools = Premiere Pro, After Effect, appareils Sony, stabilisateurs motorisés.
+  office[]
+    name = Pierre Mallet
+    role = Coordinateur, monteur
+    memberPicture = img/members/face/pierre.jpg
+  office[]
+    name = Emma Reymond
+    role = Secrétaire
+    memberPicture = img/members/face/emma.jpg
+  office[]
+    name = Nicolas Gadiollet
+    role = Effets spéciaux, cadreur
+    memberPicture = img/members/face/nicolas.jpg
+  office[]
+    name = Renaud Vitipon
+    role = Cadreur, perchiste
+    memberPicture = img/members/face/renaud.jpg
+  office[]
+    name = Gwendal Berger
+    role = Acteur
+    memberPicture = img/members/face/gwendal.jpg
+project[]
+  id number = 5
+  title = Joseph aka
+  head = Conception et réalisation, en relation avec l’artiste Joseph Aka, d’un environnement numérique pour la création d’un spectacle de danse contemporaine sur le sujet de la migration.
+  projectPicture = img/pictures/aka.jpg
+  main = Le projet Joseph Aka est un projet pluridisciplinaire regroupant de la communication, de la vidéo, du graphisme et de la programmation. Une grande partie de l'agence a donc été mobilisée pour ce projet. L'agence a dû imaginer des dispositifs numériques dans le but de les intégrer à la danse de Joseph aka. Nous avons ensuite dû créer le cahier des charges de chacune de ces œuvres pour ensuite transmettre la réalisation de ces dernières aux S4. L'agence a donc imaginé 3 dispositifs, et les S4 ont dû réaliser ces dernières, ainsi que faire un plan de communication, des affiches et un teaser pour l'événement.
+  tools = Arduino, Ruban LEDs, capteur ultrason.
+  office[]
+    name = Renaud Vitipon
+    role = Coordinateur, cadreur, monteur
+    memberPicture = img/members/face/renaud.jpg
+  office[]
+    name = Maëva Reynaud
+    role = Secrétaire
+    memberPicture = img/members/face/maeva.jpg
+  office[]
+    name = Thomas Burgard
+    role = Développeur
+    memberPicture = img/members/face/thomasB.jpg
+  office[]
+    name = Yvan Gimard
+    role = Développeur
+    memberPicture = img/members/face/yvan.jpg
+  office[]
+    name = Emma Reymond
+    role = Communication
+    memberPicture = img/members/face/emma.jpg
+project[]
+  id number = 6
+  title = IFSI
+  head = Conception et réalisation d’un serious game sous forme d’escape game, sur le thème de la gestion des risques autour de la transfusion culot globulaire.
+  projectPicture = img/pictures/labyrinth.jpg
+  main = Ce projet est transversal et lie toutes les compétences de MMI. Il s’agit donc d’un escape game pédagogique semi-virtuel alliant composants physiques et numériques. Cet escape game aura comme sujet la transfusion sanguine (culot-globulaire), et plus précisément le repérage de l’erreur et la gestion des risques de cette pratique. Le but est de développer la sensibilité des étudiants. Ils auront également une occasion ludique d’appliquer leurs cours, tout en acquérant de plus larges connaissances.
+  tools = HTML/CSS, JS, PHP/SQL, VLC
+  office[]
+    name = Thomas Burgard
+    role = Coordinateur
+    memberPicture = img/members/face/thomasB.jpg
+  office[]
+    name = Lucie Cleyet-Marel
+    role = Secrétaire
+    memberPicture = img/members/face/lucie.jpg
+  office[]
+    name = Nicolas Gadiollet
+    role = Scénariste, vidéaste
+    memberPicture = img/members/face/nicolas.jpg
+  office[]
+    name = Solène Bourgeay
+    role = Scénariste
+    memberPicture = img/members/face/solene.jpg
+  office[]
+    name = Yvan Gimard
+    role = Opérateur réseau
+    memberPicture = img/members/face/yvan.jpg
+  office[]
+    name = Thomas Ghignon
+    role = Développeur
+    memberPicture = img/members/face/thomasG.jpg
+project[]
+  id number = 7
+  title = Synpeak
+  head = Réalisation d’une vidéo sur l'implantation d’échauffements au sein d’un environnement de travail pour l’entreprise Synpeak.
+  projectPicture = img/pictures/Synpeak.jpg
+  main = Nous avons terminé le travail d’un étudiant de LPTSI qui consistait à réaliser une vidéo de 5 minutes qui montrait le travail de l’entreprise Synpeak sur l’implantation du sport au sein d’environnements de travail. Nous avons réalisé des interviews, des captations d’employés pratiquant les échauffements ainsi que le montage final de la vidéo.
+  tools = Sony A6000, sony A7, stabilisateur d’appareil photo, trépied pour appareil photo, After Effect, Premier Pro
+  office[]
+    name = Nicolas Gadiollet
+    role = Coordinateur, monteur
+    memberPicture = img/members/face/nicolas.jpg
+  office[]
+    name = Pierre Mallet
+    role = Cadreur
+    memberPicture = img/members/face/pierre.jpg
+  office[]
+    name = Renaud Vitipon
+    role = Cadreur
+    memberPicture = img/members/face/renaud.jpg
+project[]
+  id number = 8
+  title = Anniversaire GACOM
+  head = Réalisation d’une captation de l’anniversaire des 20 ans de la filière GACOM Musique de l’IUT de Chambéry.
+  projectPicture = img/pictures/gaco.jpg
+  main = Afin d’aider les étudiants de la LPTSI de l’IUT de Chambéry dans leur projet, nous avons réalisé la captation de l'événement des 20 ans de la filière GACOM. Nous avons passé la journée à prendre des photos et filmer l’événement pour ensuite fournir notre travail aux étudiants de LPTSI afin qu’ils produisent un aftermovie.
+  tools = Sony A6000, sony A7, stabilisateur d’appareil photo, trépied pour appareil photo
+  office[]
+    name = Florian Barray
+    role = Coordinateur
+    memberPicture = img/members/face/florian.jpg
+  office[]
+    name = Pierre Mallet
+    role = Cadreur
+    memberPicture = img/members/face/pierre.jpg
+  office[]
+    name = Nicolas Gadiollet
+    role = Cadreur, photographe
+    memberPicture = img/members/face/nicolas.jpg
+  office[]
+    name = Renaud Vitipon
+    role = Cadreur
+    memberPicture = img/members/face/renaud.jpg
+
+
+
+
+
+product = Site Moabi JSON
+releaseDate d = 2020-03-04
+
+member[]
+  id number = 1
+  name = GADIOLLET Nicolas
+  desc = Insouciant - Dormeur - Tryhard.
+member[]
+  id number = 2
+  name = BARRAY Florian
+  desc = Fifa - Gabbeur - Humour.
+member[]
+  id number = 3
+  name = BOURGEAY Solène
+  desc = Souriante - Amusante - Bavarde.
+member[]
+  id number = 4
+  name = VALLOIRE Elise
+  desc = Allergique à la paperasse - Créative - Perdue.
+member[]
+  id number = 5
+  name = REYNAUD Maëva
+  desc = Chanteuse dans les maisons de retraites.
+member[]
+  id number = 6
+  name = TEIXEIRA Clément
+  desc = Discret - Efficace - Inventif.
+member[]
+  id number = 7
+  name = GHIGNON Thomas
+  desc = Curieux - Affamé - CSS/JS/PHP/....
+member[]
+  id number = 8
+  name = GIMARD Yvan
+  desc = Codeur - Déterminé - Gamer - Robots.
+member[]
+  id number = 9
+  name = BURGARD Thomas
+  desc = Concentré - Plongée.
+member[]
+  id number = 10
+  name = REYMOND Emma
+  desc = Soleil - Intuitive - Enthousiaste.
+member[]
+  id number = 11
+  name = BERGER Gwendal
+  desc = Café - Survet - Palace.
+member[]
+  id number = 12
+  name = VITIPON Renaud
+  desc = Passionné - Chauve.
+member[]
+  id number = 13
+  name = MALLET Pierre
+  desc = Dynamique - Vidéo - Stabilisé (lol) - Motivé.
+member[]
+  id number = 14
+  name = MABBOUX Chloé
+  desc = Déterminée - Idéaliste - Généreuse - Indépendante - Rêveuse.
+member[]
+  id number = 15
+  name = CLEYET-MAREL Lucie
+  desc = Dynamique - Rigoureuse.

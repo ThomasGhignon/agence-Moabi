@@ -26,25 +26,26 @@
 
   <link rel="stylesheet" href="css/responsive/responsive_global.css">
   <link rel="stylesheet" href="css/responsive/responsive_index.css">
+  <link rel="stylesheet" href="css/responsive/responsive_footer.css">
 </head>
 <body>
   <div class="onMoveNav navHidden">
-    <div class="responsiveNav">
-
-    </div>
-    <div class="wrap">
-      <?php include 'include/nav_index.php'; ?>
-    </div>
+    <?php include 'include/nav_index.php'; ?>
   </div>
   <header id="link-header">
-    <div class="wrap">
     <?php include 'include/nav_index.php'; ?>
+    <div class="wrap">
+      <div class="responsiveNav">
+          <a class="js-scrollTo" href="#link-agency">agence</a>
+          <a class="js-scrollTo" href="#link-project">projets</a>
+          <a class="js-scrollTo" href="#link-members">membres</a>
+      </div>
       <div class="headerContent">
         <div>
           <span>Agence</span>
           <h1>moabi</h1>
           <a href="#link-footer">
-            <span>nous contactez</span>
+            <span>nous contacter</span>
           </a>
         </div>
         <div>
@@ -78,8 +79,8 @@
             <h2>notre agence</h2>
             <p>Le brin de curiosité mêlé à un soupçon d’audace qui vous donnera la recette pour aller au bout de vos projets.
             Venez goûter le fruit de notre passion!</p>
-            <p>Moabi est une agence de 15 étudiants de deuxième années en DUT MMI.  Passionné et complémentaire, ils sont en charge de réaliser différents projets alliant de multiples compétences tout au long de l’année.</p>
-            <a href="#">
+            <p>Moabi est une agence de 15 étudiants de deuxième années en DUT MMI.  Passionnés et complémentaires, ils sont en charge de réaliser différents projets alliant de multiples compétences tout au long de l’année.</p>
+            <a href="http://localhost/agence-Moabi/www/rapport/rapportMoabi.pdf" download="rapportMoabi.pdf">
               <span>rapport d'agence</span>
             </a>
           </div>
@@ -89,7 +90,7 @@
           <div class="agencySkills_content">
             <div>
               <img src="img/icon/icon-bubble.png" alt="css/Bulle de dialogue">
-              <p>Qu'elle soit digital ou non, nous l’assurons pour propulser vos projets.</p>
+              <p>Qu'ils soient numériques ou non, nous assurons de propulser vos projets.</p>
             </div>
             <div>
               <img src="img/icon/icon-computer.png" alt="Ordinateur">
@@ -125,9 +126,9 @@
             <h3>Myrelingues</h3>
           </span>
           <div class="projet-desc_container">
-            <div class="js-desc_content">
+            <div>
               <p>Réalisation de motions design pour prévenir les méthodes de blanchiment de la peau en Afrique.</p>
-              <a href="#">Voir le projet ></a>
+              <a href="http://localhost/agence-Moabi/www/projet.php?nbProject=1">Voir le projet ></a>
             </div>
           </div>
           <div class="project_img_2 project_img js-project_img"></div>
@@ -139,19 +140,19 @@
           <div class="project_img_3 project_img js-project_img"></div>
           <div class="projet-desc_container">
             <div class="js-desc_content">
-              <p>Organisation du festival audiovisuel vitrine du département MMI, qui récompense les réalisation des élèves de ce département au travers d’une cérémonie regroupant élèves, professeurs et professionnels.</p>
-              <a href="#">Voir le projet ></a>
+              <p>Organisation du festival audiovisuel vitrine du département MMI, qui récompense les réalisations des élèves de ce département au travers d’une cérémonie regroupant élèves, professeurs et professionnels.</p>
+              <a href="http://localhost/agence-Moabi/www/projet.php?nbProject=2">Voir le projet ></a>
             </div>
           </div>
         </div>
         <div class="project-left_content">
           <span class="project_title">
-            <h3>Vital coach <br> event</h3>
+            <h3>Vital coach<br> event</h3>
           </span>
           <div class="projet-desc_container">
-            <div class="js-desc_content">
-              <p>Réalisation d’une vidéo promotionnel pour l'événement “ Road E-Bike Grand Prix” et par la même occasion, faire connaître le monde du vélo à assistance électrique en compétition.</p>
-              <a href="#">Voir le projet ></a>
+            <div>
+              <p>Réalisation d’une vidéo promotionnelle pour l'événement “ Road E-Bike Grand Prix” et par la même occasion, faire connaître le monde du vélo à assistance électrique en compétition.</p>
+              <a href="http://localhost/agence-Moabi/www/projet.php?nbProject=3">Voir le projet ></a>
             </div>
           </div>
           <div class="project_img_4 project_img js-project_img"></div>
@@ -164,18 +165,18 @@
           <div class="projet-desc_container">
             <div class="js-desc_content">
               <p>Conception et réalisation, en relation avec l’artiste Joseph Aka, d’un environnement numérique pour la création d’un spectacle de danse contemporaine sur le sujet de la migration.</p>
-              <a href="#">Voir le projet ></a>
+              <a href="http://localhost/agence-Moabi/www/projet.php?nbProject=4">Voir le projet ></a>
             </div>
           </div>
         </div>
         <div class="project-left_content">
           <span class="project_title">
-            <h3>IFSI Escape<br>Game</h3>
+            <h3>IFSI Escape<br> Game</h3>
           </span>
           <div class="projet-desc_container">
-            <div class="js-desc_content">
+            <div>
               <p>Conception et réalisation d’un escape game semi-numérique autour du thème de la gestion des risques lors des transfusions sanguines.</p>
-              <a href="#">Voir le projet ></a>
+              <a href="http://localhost/agence-Moabi/www/projet.php?nbProject=5">Voir le projet ></a>
             </div>
           </div>
           <div class="project_img_6 project_img js-project_img"></div>
@@ -187,19 +188,19 @@
           <div class="project_img_7 project_img js-project_img"></div>
           <div class="projet-desc_container">
             <div class="js-desc_content">
-              <p>Réalisation d’une vidéo sur l'implantation du sport au sein d’un environnement de travail pour l’entreprise Synpeak.</p>
-              <a href="#">Voir le projet ></a>
+              <p>Réalisation d’une vidéo sur l'implantation d’échauffements au sein d’un environnement de travail pour l’entreprise Synpeak.</p>
+              <a href="http://localhost/agence-Moabi/www/projet.php?nbProject=6">Voir le projet ></a>
             </div>
           </div>
         </div>
         <div class="project-left_content">
           <span class="project_title">
-            <h3>Anniversaire<br>GACO</h3>
+            <h3>Anniversaire<br> GACO</h3>
           </span>
           <div class="projet-desc_container">
-            <div class="js-desc_content">
+            <div>
               <p>Réalisation d’une captation de l’anniversaire des 20 ans de la filière GACO Musique de l’IUT de Chambéry.</p>
-              <a href="#">Voir le projet ></a>
+              <a href="http://localhost/agence-Moabi/www/projet.php?nbProject=7">Voir le projet ></a>
             </div>
           </div>
           <div class="project_img_8 project_img js-project_img"></div>
@@ -208,32 +209,96 @@
       <section class="members" id="link-members">
         <h2>nos membres</h2>
         <div class="members_container">
-          <div class="membersPictures">
-            <div class="main-carousel">
-              <div class="carousel-cell"></div>
-              <div class="carousel-cell"></div>
-              <div class="carousel-cell"></div>
-              <div class="carousel-cell"></div>
-              <div class="carousel-cell"></div>
-              <div class="carousel-cell"></div>
-              <div class="carousel-cell"></div>
-              <div class="carousel-cell"></div>
-              <div class="carousel-cell"></div>
-              <div class="carousel-cell"></div>
-              <div class="carousel-cell"></div>
-              <div class="carousel-cell"></div>
-              <div class="carousel-cell"></div>
-              <div class="carousel-cell"></div>
-              <div class="carousel-cell"></div>
+          <div class="carousel-main">
+            <div class="main-carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/members/bottomless/nicolas.png" alt="photo membre Moabi">
+              <div class="main-carousel-cell_back"></div>
+            </div>
+            <div class="main-carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/members/bottomless/florian.png" alt="photo membre Moabi">
+              <div class="main-carousel-cell_back"></div>
+            </div>
+            <div class="main-carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/members/bottomless/solene.png" alt="photo membre Moabi">
+              <div class="main-carousel-cell_back"></div>
+            </div>
+            <div class="main-carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/members/bottomless/elise.png" alt="photo membre Moabi">
+              <div class="main-carousel-cell_back"></div>
+            </div>
+            <div class="main-carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/members/bottomless/maeva.png" alt="photo membre Moabi">
+              <div class="main-carousel-cell_back"></div>
+            </div>
+            <div class="main-carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/members/bottomless/clement.png" alt="photo membre Moabi">
+              <div class="main-carousel-cell_back"></div>
+            </div>
+            <div class="main-carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/members/bottomless/thomasG.png" alt="photo membre Moabi">
+              <div class="main-carousel-cell_back"></div>
+            </div>
+            <div class="main-carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/members/bottomless/yvan.png" alt="photo membre Moabi">
+              <div class="main-carousel-cell_back"></div>
+            </div>
+            <div class="main-carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/members/bottomless/thomasB.png" alt="photo membre Moabi">
+              <div class="main-carousel-cell_back"></div>
+            </div>
+            <div class="main-carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/members/bottomless/emma.png" alt="photo membre Moabi">
+              <div class="main-carousel-cell_back"></div>
+            </div>
+            <div class="main-carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/members/bottomless/gwendal.png" alt="photo membre Moabi">
+              <div class="main-carousel-cell_back"></div>
+            </div>
+            <div class="main-carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/members/bottomless/renaud.png" alt="photo membre Moabi">
+              <div class="main-carousel-cell_back"></div>
+            </div>
+            <div class="main-carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/members/bottomless/pierre.png" alt="photo membre Moabi">
+              <div class="main-carousel-cell_back"></div>
+            </div>
+            <div class="main-carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/members/bottomless/chloe.png" alt="photo membre Moabi">
+              <div class="main-carousel-cell_back"></div>
+            </div>
+            <div class="main-carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/members/bottomless/lucie.png" alt="photo membre Moabi">
+              <div class="main-carousel-cell_back"></div>
             </div>
           </div>
-          <div class="membresDesc">
-
+          <div class="members-desc">
+            <span>GADIOLLET Nicolas</span>
+            <p>Insouciant - Dormeur - Vidéaste.</p>
           </div>
         </div>
       </section>
     </div>
   </div>
+  <div class="navCell_container">
+    <div class="carousel-nav">
+      <div class="carousel-cell"></div>
+      <div class="carousel-cell"></div>
+      <div class="carousel-cell"></div>
+      <div class="carousel-cell"></div>
+      <div class="carousel-cell"></div>
+      <div class="carousel-cell"></div>
+      <div class="carousel-cell"></div>
+      <div class="carousel-cell"></div>
+      <div class="carousel-cell"></div>
+      <div class="carousel-cell"></div>
+      <div class="carousel-cell"></div>
+      <div class="carousel-cell"></div>
+      <div class="carousel-cell"></div>
+      <div class="carousel-cell"></div>
+      <div class="carousel-cell"></div>
+    </div>
+  </div>
+
   <?php include 'include/footer.php'; ?>
   <script src="js/libs/jquery.js"></script>
   <script src="js/libs/flickity.pkgd.js"></script>
@@ -243,5 +308,6 @@
   <script src="js/index-projet_offsetTxt.js"></script>
   <script src="js/smoothScroll.js"></script>
   <script src="js/onMove_nav.js"></script>
+  <script src="js/responsiveNav.js"></script>
 </body>
 </html>

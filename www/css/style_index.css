@@ -1,14 +1,18 @@
 header
 {
-   background-image: linear-gradient(to bottom, #ffca00, #ffc400, #ffbe00, #ffb900, #ffb300);
-   width: 100%;
-   height: 90vh;
+ background-image: linear-gradient(to bottom, #ffca00, #ffc400, #ffbe00, #ffb900, #ffb300);
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header .wrap
 {
   height: 100%;
-  justify-content: space-between;
+  justify-content: center;
+  width: 100%;
 }
 
 .headerContent
@@ -34,7 +38,6 @@ header .wrap
 
   letter-spacing: 10px;
 
-  position: absolute;
   top: -30px;
 }
 
@@ -54,7 +57,7 @@ header .wrap
   -webkit-border-radius: 200px 200px 200px 200px;
   border: 0px solid #000000;
 
-  margin: 70px 0 100px 0;
+  margin: 70px 0 0 0;
 
   color: #FFCA00;
 }
@@ -68,20 +71,12 @@ header .wrap
 
 .headerContent>div:nth-of-type(2) img
 {
-  width: 190%;
-
+  width: 140%;
   position: absolute;
-  right: -678px;
-  top: -251px;
+  right: -378px;
+  top: -151px;
 
   z-index: 800;
-}
-
-.main .wrap
-{
-  flex-direction: inherit;
-
-  box-sizing: border-box;
 }
 
 .agency
@@ -187,6 +182,8 @@ header .wrap
 
   box-sizing: border-box;
   padding: 35px;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .agencySkills_content div
@@ -197,9 +194,8 @@ header .wrap
   flex-direction: column;
   text-align: center;
 
-  width: 16%;
-
-  margin-bottom: 20px;
+  width: 150px;
+  margin: 20px 20px;
 }
 
 .agencySkills_content img
@@ -281,7 +277,7 @@ header .wrap
 }
 .project_img_2
 {
-  background-image: url(../img/pictures/myrelingue.jpg);
+  background-image: url(../img/pictures/myrelingues.jpg);
 }
 .project_img_3
 {
@@ -347,7 +343,7 @@ header .wrap
   display: flex;
   flex-direction: column;
   margin-bottom: 150px;
-
+  height: 70vh;
 
 }
 
@@ -360,39 +356,119 @@ header .wrap
 .members_container
 {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
 }
 
-.membersPictures
+.carousel-main
 {
   width: 60%;
 }
 
-.membresDesc
+.members-desc
 {
   width: 40%;
+  padding-left: 50px;
 }
 
-.members .carousel-cell
+.carousel_background
 {
+  background-image: linear-gradient(to right bottom, #ffc900, #ffc400, #ffc000, #ffbb00, #ffb700);
   border-radius: 200px 200px 200px 200px;
   -moz-border-radius: 200px 200px 200px 200px;
   -webkit-border-radius: 200px 200px 200px 200px;
   border: 0px solid #000000;
+  width: 100%;
+  height: 100%;
+}
 
-  width: 400px;
-  height: 400px;
-  overflow: hidden;
+.flickity-button {
+  background: #f6f6f6;
+}
 
-  margin: 0 100px;
+.flickity-button:hover {
+  background: #f6f6f6;
+}
 
+.main-carousel-cell
+{
   display: flex;
   justify-content: center;
   align-items: center;
-
-  background-color: #F2F2F2;
+  width: 100%; /* full width */
+  margin-right: 10px;
 }
 
-.members .carousel-cell img
+.main-carousel-cell_back
 {
-  height: 100%;
+  background-image: linear-gradient(to right bottom, #ffc900, #ffc400, #ffc000, #ffbb00, #ffb700);
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  border: 0px solid #000000;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-cell-image {
+  max-height: 100%;
+  max-width: 100%;
+  position: absolute;
+  transition: opacity 1s;
+  opacity: 0;
+}
+
+.carousel-cell-image.flickity-lazyloaded,
+.carousel-cell-image.flickity-lazyerror {
+  opacity: 1;
+}
+
+
+.carousel-hidden
+{
+  opacity: 0;
+}
+
+.carousel-show
+{
+  opacity: 1;
+}
+
+.navCell_container
+{
+  width: 100%;
+  position: relative;
+}
+
+.carousel-nav
+{
+  width: 100%;
+  position: absolute;
+  top: -230px;
+  z-index: -1;
+}
+
+.carousel-cell
+{
+  margin: 0 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #f8f8f8;
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  border: 0px solid #000000;
+}
+
+.members-desc span
+{
+  font-family: "Quicksand", arial, sans-serif;
+  font-weight: 600;
+
+  font-size: 1em;
+  color:#000;
 }

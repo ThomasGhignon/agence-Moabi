@@ -1,16 +1,90 @@
 @media screen and (max-width: 1120px)
 {
-  .wrap
+  .wrap, .wrap_nav
   {
     padding: 0 90px;
   }
 }
 
-
 @media screen and (max-width: 750px)
 {
-  .wrap
+  .wrap, .wrap_nav
   {
     padding: 0 90px;
+  }
+
+  .js-largeButton
+  {
+    display: none;
+  }
+
+  .js-smallButton
+  {
+    display: flex;
+  }
+  .responsiveNav
+  {
+    display: flex;
+  }
+
+  .main_container .line
+  {
+    display: none;
+  }
+
+  .project_desc > div:first-child
+  {
+    display: none;
+  }
+
+  .project_desc > div
+  {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px)
+{
+  h1
+  {
+    font-size: 5em;
+  }
+
+  .headerContent > div > span
+  {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 550px)
+{
+  .wrap, .wrap_nav
+  {
+    padding: 0 60px;
+  }
+}
+
+@media screen and (max-width: 430px)
+{
+  .wrap, .wrap_nav
+  {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 400px)
+{
+  .wrap, .wrap_nav
+  {
+    padding: 0 20px;
+  }
+  h1
+  {
+    font-size: 4em;
+  }
+
+  .headerContent > div > span
+  {
+    font-size: 1.5em;
   }
 }
